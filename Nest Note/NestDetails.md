@@ -22,3 +22,13 @@
 - @Injectable() → Marks it as a provider (so it can be injected).
 - findAll() → Returns a list of users.
 - create() → Adds a new user.
+
+### Services (UsersService) – Handles Business Logic & Data
+- A service stores, processes, and manages data.
+- It keeps the core logic separate so controllers remain clean.
+- If you need to change the logic later (e.g., connect to a database), - you only update the service, not every controller.
+
+#### Why Should You Use a Service?
+✅ Keeps the code organized – Controllers handle only requests, while services manage the logic.
+✅ Reusability – Other parts of the app (like another controller) can reuse the service.
+✅ Easy to switch databases – If you replace an in-memory array with PostgreSQL, you only update the service.

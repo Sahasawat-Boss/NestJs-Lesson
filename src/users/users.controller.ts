@@ -5,7 +5,7 @@ export class UsersController {
 
     @Get() // GET /users or GET /users?role=value
     // EX>>  /users?role=ADMIN
-    findAll(@Query('role') role?:'INTERN'|'ADMIN'|'TEACHER')
+    findAll(@Query('role') role?:'INTERN'|'ADMIN'|'ENGINEER')
     {
         return ['GET API Work']
     }
