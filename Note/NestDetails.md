@@ -6,6 +6,7 @@
 - For example, if you have a UsersModule, it would handle everything related to user management (e.g., authentication, user profiles, database operations).
 
 ### Controllers
+- https://docs.nestjs.com/controllers
 - A Controller is responsible for handling incoming HTTP requests and sending responses to the client.
 
 - How Controllers Work
